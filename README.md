@@ -15,7 +15,7 @@ Pytorch==1.6.0</li></ul>
 <h4> Network Architecture</h4>
 <p> Basic Network is used which consist of fully dense layer with activation function of relu and output layer with linear activation</p>
   <pre> <code> 
-      def __init__(self, in_features, out_action):
+    def __init__(self, in_features, out_action):
         super(policyNetwork, self).__init__()
         self.dense =  nn.Linear(in_features = in_features, out_features = 512 )
         self.dense2 = nn.Linear(in_features= 512, out_features=64)
@@ -27,3 +27,5 @@ Pytorch==1.6.0</li></ul>
         return output
 
 </code> </pre>
+<h4> Result. </h4> 
+<img src="gym.gif" alt="this slowpoke moves"  width=250/>
