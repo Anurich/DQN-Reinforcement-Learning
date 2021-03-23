@@ -5,14 +5,14 @@
 whose input is raw pixels and whose output is a value function estimating future
 rewards. They apply DQN to seven Atari 2600 games from the Arcade Learning Environment, with no adjustment of the architecture or learning algorithm. DQN outperform all the previous approches.
 </p>
-<h4> Paper Linke </h4>
+<h2> Paper Linke </h2>
 <a href="cs.toronto.edu/~vmnih/docs/dqn.pdf"> Playing Atari with Deep Reinforcement Learning </a>
-<h4>Installation.</h4>
-<ul> <li> Python==3.6.6</li> <li>
-Pytorch==1.6.0</li></ul>
-<h4> Game Environment.</h4>
+<h2>Installation.</h2>
+<ul> <li> <b>Python==3.6.6</b></li> <li>
+<b>Pytorch==1.6.0</b></li></ul>
+<h2> Game Environment.</h2>
 <p> The game environment used is <b><a href="https://gym.openai.com/envs/MountainCar-v0/"> MountainCar-v0</a></b> with discreate action.</p>
-<h4> Network Architecture</h4>
+<h2> Network Architecture</h2>
 <p> Basic Network is used which consist of fully dense layer with activation function of relu and output layer with linear activation</p>
   <pre> <code> 
     def __init__(self, in_features, out_action):
@@ -27,7 +27,7 @@ Pytorch==1.6.0</li></ul>
         return output
 
 </code> </pre>
-<h4> Result. </h4>
+<h2> Result. </h2>
 <figure>
 <img src="gym.gif" alt="this slowpoke moves"  heigh="300" width="500"/>
 </figure>
