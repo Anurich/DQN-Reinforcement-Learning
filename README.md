@@ -27,5 +27,7 @@ Pytorch==1.6.0</li></ul>
         return output
 
 </code> </pre>
-<h4> Result. </h4> 
-<img src="gym.gif" alt="this slowpoke moves"  width=250/>
+<h4> Result. </h4>
+<figure>
+<img src="gym.gif" alt="this slowpoke moves"  heigh="300" width="500"/>
+</figure>
