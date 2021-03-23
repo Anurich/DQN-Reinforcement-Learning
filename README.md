@@ -31,3 +31,9 @@ rewards. They apply DQN to seven Atari 2600 games from the Arcade Learning Envir
 <figure>
 <img src="gym.gif" alt="this slowpoke moves"  heigh="300" width="500"/>
 </figure>
+<h2> Important Note. </h2>
+<p>
+I am just the beginner and learning about this fascinating field, Please feel free to point out my mistake as well as feel free to contribute. 
+Hope to upload more interesting project in future.
+</p>
+
